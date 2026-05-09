@@ -6,7 +6,8 @@ with sync_playwright() as playwright:
     #create a new page
     page = browser.new_page()
     #visit playwright page
-    page.goto("https://playwright.dev/")
+    url = "https://playwright.dev/"
+    page.goto(url)
 
     #locate a link element with Docs text and click on it
     docs_button = page.get_by_role('link', name='Docs')
