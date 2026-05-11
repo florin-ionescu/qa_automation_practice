@@ -4,8 +4,8 @@
 from openpyxl import Workbook, load_workbook
 from openpyxl.utils import get_column_letter
 
-wb = load_workbook('lista_date.xlsx')
-ws = wb.active
+wb = load_workbook('lista_date.xlsx') #wb = workbook
+ws = wb.active #ws = worksheet
 print(ws['A1'].value) # you can access the value with .value
 ws['A2'].value = 'Jan' #to assign a new value
 wb.save('lista_date.xlsx')  #save the file // if excel is open you get error

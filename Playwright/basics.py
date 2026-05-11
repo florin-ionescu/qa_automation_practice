@@ -17,3 +17,5 @@ with sync_playwright() as playwright:
     print("Docs:", page.url)
 
     browser.close()
+
+
