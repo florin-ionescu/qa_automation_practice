@@ -25,7 +25,32 @@ Contains Python practice projects:
 - File automation
 - Utility scripts
 
----
+### Pytest
+Contains pytest practice and test automation examples:
+
+- Assertions
+- Fixtures
+- Parametrized tests
+- UI automation tests
+- API validation tests
+
+### API Testing
+Contains API automation practice using Python requests and pytest:
+
+- GET requests
+- POST requests
+- Status code validation
+- JSON response validation
+- API automation practice
+- 
+### Manual Testing
+Contains manual QA practice documentation:
+
+- Test cases
+- Bug reports
+- Test plans
+- QA validation examples
+
 
 ## Tools Used
 

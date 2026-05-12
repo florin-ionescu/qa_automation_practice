@@ -19,3 +19,10 @@ with sync_playwright() as playwright:
     browser.close()
 
 
+with sync_playwright() as playwright:
+    browser = playwright.firefox.launch(headless=False)
+    page = browser.new_page()
+    url = page.goto("https://bootswatch.com/cosmo/")
+
+    page.get_by_role("button", name="Block button").highlight()
+    input("Press Enter to close...")
