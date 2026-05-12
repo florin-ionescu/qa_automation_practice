@@ -42,7 +42,7 @@ Contains API automation practice using Python requests and pytest:
 - Status code validation
 - JSON response validation
 - API automation practice
-- 
+
 ### Manual Testing
 Contains manual QA practice documentation:
 
