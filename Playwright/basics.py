@@ -12,6 +12,7 @@ with sync_playwright() as playwright:
     #locate a link element with Docs text and click on it
     docs_button = page.get_by_role('link', name='Docs')
     docs_button.click()
+    page.screenshot(path="./screenshot.png")
 
     # Get the URL
     print("Docs:", page.url)
