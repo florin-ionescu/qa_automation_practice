@@ -19,3 +19,19 @@ def test_string_equal():
 def test_string_contains():
     message = "Welcome to Python testing"
     assert "Python" in message
+
+def test_string_startswith():
+    url = "https://example.com"
+    assert url.startswith("https")
+
+def test_string_endswith():
+    filename = "report.pdf"
+    assert filename.endswith(".pdf")
+
+def test_string_lowercase():
+    text = "HELLO"
+    assert text.lower() == "hello"
+
+def test_string_strip():
+    text = "   Python   "
+    assert text.strip() == "Python"
