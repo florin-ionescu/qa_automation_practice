@@ -1,4 +1,13 @@
 
+def test_user_name(user):
+    assert user["username"] == "Florin"
+
+def test_user_active(user):
+    assert user["is_active"] is True
+
+def test_login_data(login_data):
+    assert login_data["username"] == "Florin"
+    assert login_data["password"] == "password123"
 
 def test_equal():
     assert True
