@@ -15,7 +15,7 @@ def test_not_equal():
     assert False
 
 def test_equal():
-    assert 5==5
+    assert 5 == 5
 
 def test_true():
     is_logged_in = True
